@@ -1,4 +1,6 @@
-import mongoose from "mongoose";
+const mongoose=require('mongoose')
+const dotenv=require('dotenv')
+
 
 const startDB = async () => {
   try {
